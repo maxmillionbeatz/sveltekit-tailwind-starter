@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 import { spawn } from 'child_process';
 
-const repositoryUrl = 'https://github.com/your-username/your-repo.git';
+const repositoryUrl = 'https://github.com/maxmillionbeatz/sveltekit-tailwind-starter.git';
 const destination = process.cwd();
 
 spawn('git', ['clone', repositoryUrl, destination], { stdio: 'inherit' }).on('close', (code) => {
